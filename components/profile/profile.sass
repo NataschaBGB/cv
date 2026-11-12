@@ -1,0 +1,28 @@
+.profile
+    border-bottom: 1px solid black
+    // padding: 0 0 
+        
+    // MARK: Paper Title
+    &__titles 
+        display: flex
+        align-items: center
+        justify-content: space-between
+        margin: 1.5rem 0 0
+        
+        // Paper Label
+        .paper 
+            height: 45px
+            width: 160px
+            background: #9dc7f8
+            font-size: 18px
+
+        // Paper Folds
+        .paper::after
+            background: linear-gradient(rgba(255, 255, 255, 0), 51%, #75b7fd, 52%, rgba(255, 255, 255, 0)), linear-gradient(to right, rgba(255, 255, 255, 0), 51%, #91c6ff, 52%, rgba(255, 255, 255, 0))
+    
+    &__text
+        padding: 1rem 0
+        display: flex
+        flex-direction: column
+        align-items: center
+        gap: 0.5rem

@@ -6,13 +6,14 @@ import Contact from "@/components/contact";
 import DriversLicense from "@/components/drivers-license";
 import Languages from "@/components/languages";
 import Code from "@/components/code";
+import Profile from "@/components/profile";
 
 export default function Home() {
   return (
     <section className='cv'>
 
         <main className='cv__main'>
-          {/* <Profile /> */}
+          <Profile />
           {/* <Educations /> */}
           {/* <Experience /> */}
         </main>
