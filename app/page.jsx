@@ -7,6 +7,7 @@ import DriversLicense from "@/components/drivers-license";
 import Languages from "@/components/languages";
 import Code from "@/components/code";
 import Profile from "@/components/profile";
+import Educations from "@/components/educations";
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
 
         <main className='cv__main'>
           <Profile />
-          {/* <Educations /> */}
+          <Educations />
           {/* <Experience /> */}
         </main>
 
