@@ -53,50 +53,6 @@ export default function Educations() {
                         </ul>
                     </div>
                 </article>
-                    
-                {/* <article className="education">
-                    <section className='education__title'>
-                        <h3 className='education__name'>AspIT - STU</h3>
-                        <div className="education__dates">
-                            <p>August 2021 -</p>
-                            <p>Juli 2024</p>
-                        </div>
-                    </section>
-                    
-                    <section className="education__list">
-                        <ul>
-                            <li>Web Introduktion</li>
-                            <li>Web Construction</li>
-                            <li>Web Development</li>
-                            <li>Web development & databaser</li>
-                            <li>Programmering Introduktion</li>
-                            <li>Applikation Programmering</li>
-                            <li>IT Introduktion</li>
-                        </ul>
-                    </section>
-                </article>
-
-                <article className="education">
-                    <section className='education__title'>
-                        <h3 className='education__name'>Roskilde Tekniske Skole - Erhvervsuddannelse Webudvikler</h3>
-                        <div className="education__dates">
-                            <p>August 2025 -</p>
-                            <p>Oktober 2026</p>
-                        </div>
-                    </section>
-                    <section className="education__list">
-                        <ul>
-                            <li>JavaScript</li>
-                            <li>SASS</li>
-                            <li>Next.js</li>
-                            <li>Node.js</li>
-                            <li>Vite</li>
-                            <li>React</li>
-                            <li>React Router</li>
-                            <li>CRUD</li>
-                        </ul>
-                    </section>
-                </article> */}
                  
             </section>
     )
