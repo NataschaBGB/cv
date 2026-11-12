@@ -1,0 +1,25 @@
+.drivers-license
+    border-bottom: 1px solid #000000
+    padding: 0 0 1rem
+
+    // MARK: Paper Titles
+    &__titles
+        display: flex
+        align-items: center
+        justify-content: space-between
+        margin: 1.5rem 0 1rem
+
+        // Paper Label
+        .paper 
+            width: 180px
+            height: 40px
+            background: #7161ff
+            font-size: 18px
+            
+        // Paper Folds
+        .paper::after
+            background: linear-gradient(rgba(255, 255, 255, 0), 51%, #7161ff, 52%, rgba(255, 255, 255, 0)), linear-gradient(to right, rgba(255, 255, 255, 0), 51%, #7161ff, 52%, rgba(255, 255, 255, 0))
+
+    h3
+        text-align: center
+        font-size: 22px

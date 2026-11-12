@@ -1,0 +1,30 @@
+.languages
+    border-bottom: 1px solid #000000
+    padding: 0 0 1rem
+
+    &__titles
+        display: flex
+        align-items: center
+        justify-content: space-between
+        margin: 1.5rem 0 1rem
+
+        // Paper Label
+        .paper 
+            width: 180px
+            height: 40px
+            background: #f17d7d
+            font-size: 18px
+            
+        // Paper Folds
+        .paper::after
+            background: linear-gradient(rgba(255, 255, 255, 0), 51%, #e66262, 52%, rgba(255, 255, 255, 0)), linear-gradient(to right, rgba(255, 255, 255, 0), 51%, #f17070, 52%, rgba(255, 255, 255, 0))
+
+
+    // Languages Table
+    &__table
+        border-collapse: collapse
+        tbody, th, td
+            width: 100%
+            text-align: left
+            border: 1px solid #949494ff
+            padding: 5px

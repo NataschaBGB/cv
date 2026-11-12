@@ -1,3 +1,5 @@
+import Image from 'next/image';
+import qualifications from '../../assets/qualifications.png';
 import './qualifications.sass';
 
 
@@ -7,7 +9,7 @@ export default function Qualifications() {
 
         <section className='qualifications'>
             <figure className="qualifications__titles">
-                <img src="../../public/assets/qualifications.png" alt="qualifications_icon" className="qualifications__image" />
+                <Image src={qualifications} alt="qualifications_icon" height={40} className="qualifications__image" />
                 <figcaption className="paper">
                     <div className="top-tape"></div>
                     <h2>Kvalifikationer</h2>

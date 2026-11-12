@@ -1,6 +1,11 @@
 import Competencies from "@/components/competencies";
 import './globals.css';
 import Qualifications from "@/components/qualifications";
+import Interests from "@/components/interests";
+import Contact from "@/components/contact";
+import DriversLicense from "@/components/drivers-license";
+import Languages from "@/components/languages";
+import Code from "@/components/code";
 
 export default function Home() {
   return (
@@ -15,10 +20,11 @@ export default function Home() {
         <aside className='cv__sidebar'>
           <Competencies />
           <Qualifications />
-          {/* <Interests /> */}
-          {/* <Contact /> */}
-          {/* <Credentials /> */}
-          {/* <Code /> */}
+          <Interests />
+          <Contact />
+          <DriversLicense />
+          <Languages />
+          <Code />
         </aside>        
 
       </section>

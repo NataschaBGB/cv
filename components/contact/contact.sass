@@ -1,0 +1,42 @@
+// MARK: Contact
+.contact
+    border-bottom: 1px solid #000000
+
+    // MARK: Paper Titles
+    &__titles
+        display: flex
+        align-items: center
+        justify-content: space-between
+        margin: 1.5rem 0 0
+        
+        // Paper Label
+        .paper
+            width: 140px
+            height: 40px
+            background: #fac8c8
+            font-size: 18px
+
+        // Paper Folds
+        .paper::after
+            background: linear-gradient(rgba(255, 255, 255, 0), 51%, #fdb4b4, 52%, rgba(255, 255, 255, 0)), linear-gradient(to right, rgba(255, 255, 255, 0), 51%, #fdb4b4, 52%, rgba(255, 255, 255, 0))
+
+    // MARK: Phone, Email, Linkedin
+    &__phone, &__email, &__linkedin
+        display: flex
+        align-items: center
+        gap: 1rem
+        margin: 1rem 0
+        
+        // Link - email and linkedin
+        a
+            text-decoration: none
+            color: inherit
+            font-weight: bold
+
+        a:hover
+            text-decoration: underline
+        
+    // phone icon, email icon, linkedin icon
+    &__icon
+        height: auto
+        width: 30px
