@@ -1,0 +1,54 @@
+.experiences
+    border-bottom: 1px solid black
+
+    
+    // MARK: Paper Titles
+    &__titles
+        display: flex
+        align-items: center
+        justify-content: space-between
+        margin: 1rem 0 0
+        
+        // Paper Label
+        .paper
+            height: 45px
+            width: 240px
+            background: #f9f8d5
+            font-size: 18px
+        
+        // Paper Folds
+        .paper::after
+            background: linear-gradient(rgba(255, 255, 255, 0), 51%, #e6e4b0, 52%, rgba(255, 255, 255, 0)), linear-gradient(to right, rgba(255, 255, 255, 0), 51%, #ebe9bf, 52%, rgba(255, 255, 255, 0))
+
+    
+    // MARK: Experience
+    &__experience
+        margin: 0.5rem 0
+        padding: 1rem 1rem 0
+        border-top: 1px solid #aaaaaa
+
+    // Experience Title ( Name and Date )
+    &__title
+        display: flex
+        justify-content: space-between
+        align-items: center
+        gap: 1rem
+        p
+            text-align: right
+    
+    // Workplace Name
+    // &__name
+    //     width: 50%
+
+    // List of Subjects
+    &__list
+        display: flex
+        flex-direction: column
+        align-items: center
+        padding: 1rem
+        ul
+            column-count: 2
+            column-gap: 2rem
+    // Workplace Description
+    &__text
+        padding: 1rem 0

@@ -8,6 +8,7 @@ import Languages from "@/components/languages";
 import Code from "@/components/code";
 import Profile from "@/components/profile";
 import Educations from "@/components/educations";
+import Experience from "@/components/experience";
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
         <main className='cv__main'>
           <Profile />
           <Educations />
-          {/* <Experience /> */}
+          <Experience />
         </main>
 
         <aside className='cv__sidebar'>
